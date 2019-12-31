@@ -1,0 +1,37 @@
+标题: ""
+type: "custom_form"
+指令: ""
+执行模式: 0
+跳转UI: ""
+点击信息: "返回了msg:{msg} boolean {boolean} msg1: {msg1} msg2: {msg2}"
+content:
+ 0:
+  返回变量: ""
+  type: "label"
+  文本: "这是一个文本控件"
+ 1:
+  返回变量: "{msg}"
+  type: "input"
+  default: "提示输入"
+  文本: ""
+ 2:
+  返回变量: "{boolean}"
+  type: "toggle"
+  文本: ""
+ 3:
+  返回变量: "{msg1}"
+  type: "dropdown"
+  文本: ""
+  list:
+   - "参考变量1"
+ 4:
+  返回变量: "{msg2}"
+  type: "step_slider"
+  文本: "这个是返回纯数字的数量"
+  text: "这个是监听{i}数量的 变量名不可变"
+  min0Text: "当选择为0text显示这个"
+  minMaxText: "当选择为Max数字text显示这个"
+  min: 0
+  max: 100
+
+
